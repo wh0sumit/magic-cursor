@@ -1,7 +1,18 @@
 {
   "name": "magic-cursor",
   "version": "0.1.0",
+  "description": "Magic Cursor is a React component that allows you to create a custom cursor for your website, with a lot of customization options.",
   "private": true,
+  "main": "lib/index.tsx",
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wh0sumit/magic-cursor.git"
+  },
+  "author": "Sumit Singh <sumikumar1608@gmail.com> (https://wh0sumit.vercel.app)",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -22,5 +33,24 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.1",
     "typescript": "5.0.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/wh0sumit/magic-cursor/issues"
+  },
+  "homepage": "https://github.com/wh0sumit/magic-cursor#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2"
+  },
+  "keywords": [
+    "magic",
+    "cursor",
+    "custom-cursor"
+  ]
 }
