@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-interface CustomCursorProps extends React.HTMLAttributes<HTMLDivElement> {
+interface MagicCursorProps extends React.HTMLAttributes<HTMLDivElement> {
   image?: string;
   text?: string;
   color?: string;
@@ -8,7 +8,7 @@ interface CustomCursorProps extends React.HTMLAttributes<HTMLDivElement> {
   imageHeight?: string;
 }
 
-const CustomCursor: React.FC<CustomCursorProps> = ({
+const MagicCursor: React.FC<MagicCursorProps> = ({
   children,
   image,
   text,
@@ -73,5 +73,5 @@ const CustomCursor: React.FC<CustomCursorProps> = ({
   );
 };
 
-export default CustomCursor;
+export default MagicCursor;
 

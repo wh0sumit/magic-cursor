@@ -2,7 +2,7 @@
   "name": "magic-cursor",
   "version": "0.1.0",
   "description": "Magic Cursor is a React component that allows you to create a custom cursor for your website, with a lot of customization options.",
-  "private": true,
+ 
   "main": "lib/index.tsx",
   "files": [
     "lib/**/*"
