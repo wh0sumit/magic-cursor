@@ -1,25 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
 import MagicCursor from "./components/MagicCursor.tsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <MagicCursor image={logo} imageHeight="100px">
-          <button>Button</button>
-          <div>Custom Cursor</div>
-        </MagicCursor>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MagicCursor color="red" text="Hello World!">
+        <h1>Text Magic Cursor</h1>
+      </MagicCursor>
+      <MagicCursor image="https://picsum.photos/200/300">
+        <h1>Image Magic Cursor</h1>
+      </MagicCursor>
     </div>
   );
 }
