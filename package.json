@@ -2,55 +2,50 @@
   "name": "magic-cursor",
   "version": "0.1.0",
   "description": "Magic Cursor is a React component that allows you to create a custom cursor for your website, with a lot of customization options.",
- 
-  "main": "lib/index.tsx",
-  "files": [
-    "lib/**/*"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wh0sumit/magic-cursor.git"
-  },
-  "author": "Sumit Singh <sumikumar1608@gmail.com> (https://wh0sumit.vercel.app)",
-  "license": "MIT",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.35",
-    "@types/react-dom": "18.0.11",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.38.0",
-    "eslint-config-next": "13.3.0",
-    "next": "13.3.0",
-    "postcss": "8.4.21",
-    "prettier": "^2.8.7",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "tailwindcss": "3.3.1",
-    "typescript": "5.0.4"
-  },
-  "bugs": {
-    "url": "https://github.com/wh0sumit/magic-cursor/issues"
-  },
-  "homepage": "https://github.com/wh0sumit/magic-cursor#readme",
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.21.0",
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
-    "@babel/preset-react": "^7.18.6",
-    "babel-loader": "^9.1.2"
-  },
   "keywords": [
     "magic",
+    "react",
+    "react-component",
     "cursor",
     "custom-cursor"
-  ]
+  ],
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
